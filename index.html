@@ -4,23 +4,41 @@
 <head>
     <meta charset="utf-8">
     <title>GIPHY</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- Rendered Buttons will get Dumped Here  -->
-    <div id="buttons-view"></div>
+    <div class="content">
+        <div class="row">
+            <h2>Bubba Gump Shrimp Co</h2>
+        </div>
+        <div class="row">
+            <div id="buttons-view" class="border border-secondary rounded"></div>
+        </div>
+        <div class="row">
+            <div class="input-group add-topic">
+                <div class="input-group-prepend">
+                    <div class="input-group-text" id="btnGroupAddon2">New Topic</div>
+                </div>
+                <input type="text" class="form-control" id="topic-input">
+                <div class="input-group-append">
+                    <button id="add-topic" type="submit" class="btn btn-primary btn-sm">Add</button>
+                </div>
+            </div>
+        </div>
 
-    <div id="gifs-appear-here"></div>
-    <div>
-        <form id="topic-form">
-            <label for="topic-input">Add a Topic</label>
-            <input type="text" id="topic-input">
-            <br>
-
-            <!-- Button triggers new topic to be added -->
-            <input id="add-topic" type="submit" value="Add a topic">
-        </form>
+        <div class="row" id="dynamic">
+            <div class="col-8" id="dynamic-gif"></div>
+            <div class="col-4" id="dynamic-favorite"></div>
+        </div>
     </div>
     <script src="assets/scripts/giftastic.js"></script>
 
