@@ -8,11 +8,11 @@ All you need a is the code and a browser. Download and open.
 
 ## Built With
 
-* [jQuery](http://www.jQuery.com) - The web framework used
+* [jQuery](http://www.jQuery.com)
 ## Authors
 
 * **Dirk Wiggins** - *Initial work* - [kridlet](https://github.com/kridlet)
 
 ## Acknowledgments
 
-* UPenn Coding Boot Camp https://bootcamp.sas.upenn.edu/
+* [UPenn Coding Boot Camp](https://bootcamp.sas.upenn.edu/)
