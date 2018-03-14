@@ -4,7 +4,7 @@ This is a giphy API search and favorite system built using JavaScript an jQuery
 
 ## Getting Started
 
-All you need a is the code and a browser. Download and open. 
+All you need is the code and a browser. Download and open. 
 
 ## Built With
 
